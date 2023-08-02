@@ -1,0 +1,94 @@
+/* body{
+  font-family: "Muli", sans-serif;
+  background-color: #AA96DA;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+} */
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  /* background-color: #AA96DA; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: 
+  url("https://img.freepik.com/free-vector/flat-design-forest-landscape_23-2149155031.jpg?w=1060&t=st=1680900991~exp=1680901591~hmac=29482c69cd4fbcd216a588bddca8d5629b7cf6c4ea9a854f623603615fe8e8bb");
+  background-size: cover;
+}
+.mamu{
+  background-color: transparent;
+  width: 25rem;
+  height: 30rem;
+  margin-top: 3rem;
+  padding: 20px 40px;
+  /* box-shadow: 0 0 50px -2px rgba(5,4, 4, 0.7);
+   */
+   box-shadow: 0 0 50px 20px rgba(0, 0, 0, 0.7);
+
+
+}
+.loginTitle {
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+  
+}
+
+.loginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+}
+
+.loginInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+
+.loginButton {
+  margin-top: 35px;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.loginButton:disabled{
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 35.3rem;
+  margin-left: 13.8rem;
+  background-color:transparent;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  text-decoration: underline;
+
+
+}
+.ll1{
+height: 2rem;
+  width: 15rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  color: black;
+}
